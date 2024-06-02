@@ -237,9 +237,10 @@ html, body {
 .part1{
     height: 100%;
     width: 50%;
-    background-image: url(https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1641481310395-27e37a3b711b?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+
 }
 .part1 h1{
     letter-spacing: -2px;
@@ -452,23 +453,23 @@ html, body {
     background-position: center;
 }
 #page8{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 2vw 5vw;
-        margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    margin-top: 40px;
 }
 .page8Right h4{
     font-size: 1.5vw;
     /* margin-right: 5.5vw; */
 }
 .page8Part2 img{
-    object-position: 0px -45px;
+    object-position: 0px -150px;
 }
 .page8Part1{
-    background-image: url(https://images.unsplash.com/photo-1616065297965-6b2a76de6807?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1614432665380-855c4249c559?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 #marque{
     /* height: 15vh; */
@@ -504,7 +505,33 @@ html, body {
     }
 }
 
+#page9{
+    height: 80%;
+    width: 90%;
+    margin-top: 70px;
+    margin-right: 1vw;
+    margin-left: 5vw;
+    background-image: url(https://images.unsplash.com/photo-1616430292050-64f5ca6b2260?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
 #footer{
     width: 100%;
-    height: 100%;
+    height: 30vh;
+    margin-top: 17vh;
+    overflow: hidden;
+}
+
+#grid{
+    padding-left: 5vw;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 1vw;
+    row-gap: 3vw;
+    align-items: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
